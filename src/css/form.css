@@ -1,0 +1,95 @@
+:root {
+  --font-family: 'Montserrat', sans-serif;
+}
+a {
+  display: block;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  width: 408px;
+  height: 296px;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px Solid gray;
+
+  background: #fff;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+
+.input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 100%;
+  /* width: 360px; */
+  padding: 12px;
+
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+}
+.input:hover,
+.input:focus {
+  border: 1px solid #000;
+}
+
+input[name='email'] {
+  height: 40px;
+}
+
+textarea[name='message'] {
+  /* border: 1px solid #808080; */
+  /* border-radius: 4px; */
+  /* width: 100%; */
+  /* padding: 12px; */
+  height: 120px;
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+
+  background: #4e75ff;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+button:hover,
+button:focus {
+  background: #6c8cff;
+}
